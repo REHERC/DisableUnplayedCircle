@@ -18,7 +18,6 @@ namespace Distance.Translator
         public void Initialize(IManager manager,string ipcIdentifier)
         {
             Console.WriteLine("Initializing ...");
-
             CurrentPlugin.initialize();
             CurrentPlugin.Log.Info("Initialization done!");
             try
