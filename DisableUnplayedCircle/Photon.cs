@@ -15,10 +15,7 @@ namespace Distance.Translator
 {
     public partial class Photon : IPlugin
     {
-        public string IPCIdentifier { get { return "DisableUnplayedCircle"; } set { } }
-
-
-        public void Initialize(IManager manager)
+        public void Initialize(IManager manager,string ipcIdentifier)
         {
             Console.WriteLine("Initializing ...");
 
