@@ -1,21 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisableUnplayedCircle", "DisableUnplayedCircle\DisableUnplayedCircle.csproj", "{A32DE815-320C-4F16-8A22-38B98201E3E2}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Referenced Assemblies", "Referenced Assemblies", "{B6287C82-F365-4D5A-9339-2DE047D89A46}"
-	ProjectSection(SolutionItems) = preProject
-		Referenced Assemblies\0Harmony.dll = Referenced Assemblies\0Harmony.dll
-		Referenced Assemblies\Assembly-CSharp.dll = Referenced Assemblies\Assembly-CSharp.dll
-		Referenced Assemblies\JsonFx.dll = Referenced Assemblies\JsonFx.dll
-		Referenced Assemblies\Spectrum.API.dll = Referenced Assemblies\Spectrum.API.dll
-		Referenced Assemblies\Spectrum.Interop.dll = Referenced Assemblies\Spectrum.Interop.dll
-		Referenced Assemblies\Spectrum.Manager.dll = Referenced Assemblies\Spectrum.Manager.dll
-		Referenced Assemblies\UnityEngine.dll = Referenced Assemblies\UnityEngine.dll
-		Referenced Assemblies\UnityEngine.UI.dll = Referenced Assemblies\UnityEngine.UI.dll
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30DB16E0-7BD2-410C-A17A-34FAADE6532B}
 	EndGlobalSection
 EndGlobal
